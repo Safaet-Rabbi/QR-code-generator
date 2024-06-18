@@ -1,11 +1,11 @@
 import React from 'react';
 import "./App.css";
-import FormInput from './components/Form/FormInput';
+import QRCodeGenerator from "./components/qr-code-generator";
 
 const App = () => {
   return (
     <div>
-      <FormInput />
+      <QRCodeGenerator/>
     </div>
   );
 };
